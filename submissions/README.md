@@ -1,0 +1,3 @@
+# Submissions
+
+- Intern-Decision-0.8B-OneJev — model: https://huggingface.co/wunan6/Intern-Decision-0.8B-OneJev | results: dataset wunan6/decision-index-results, runs/intern-decision-0.8b-onejev/scores.json (private, access on request) | engine: di_engine:InternDecisionEngine (Intern-Decision XTuner masked-decision backend) over kit commit 25c6ec7 | hardware: NVIDIA L20, single process, one request at a time | settings: bf16, max_length 8192, temperature 1.0; declared limits 62 options/choice and 8192 context tokens, over-limit requests refused as unsupported, never truncated | suite rebuilt locally, all four pinned hashes verified | public index 11.46
